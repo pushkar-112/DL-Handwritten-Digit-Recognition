@@ -1,4 +1,6 @@
 # 🔢 Digit Recognition Web App
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://digit-recognition-app-latest.onrender.com)
+
 
 A modern web application that uses deep learning to recognize handwritten digits (0-9). Built with Flask and TensorFlow, featuring both image upload and drawing canvas functionality.
 
@@ -13,6 +15,7 @@ A modern web application that uses deep learning to recognize handwritten digits
 - **✏️ Drawing Canvas**: Draw digits directly in the browser with touch support
 - **🧠 AI Prediction**: Real-time digit recognition using trained neural network
 - **📊 Confidence Scores**: View prediction probabilities for all digits (0-9)
+- 🐳 **Dockerized Deployment**: Run the app in a container with all dependencies pre-installed. Easy to deploy locally or on cloud platforms like Render, Heroku, or AWS.
 - **📱 Responsive Design**: Works seamlessly on desktop and mobile devices
 - **🎨 Modern UI**: Beautiful gradient interface with smooth animations
 
@@ -26,6 +29,12 @@ Draw digits directly in the browser:
 
 ### Results Display
 View predictions with confidence scores and probability distributions:
+
+## 🌐 Live Demo
+
+Try the app online without any setup!  
+[Click here to use the Digit Recognition Web App](https://digit-recognition-app-latest.onrender.com)
+
 
 ## 🛠 Installation
 

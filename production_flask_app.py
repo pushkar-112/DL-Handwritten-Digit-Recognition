@@ -19,7 +19,10 @@ def load_model():
     try:
         
         model_loaded = False
-        model_path='model\digit_recognition_model.h5'
+         # Make path platform-independent
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        model_path = os.path.join(base_dir, "model", "digit_recognition_model.h5")
+
         if os.path.exists(model_path):
             try:
                 model = tf.keras.models.load_model(model_path)
