@@ -187,6 +187,24 @@ The app expects a trained model with:
 - Input: Flattened 28×28 images (784 features)
 - Output: 10 classes with softmax activation
 
+## 🧠 Model Details - digit_recognition_model.h5
+
+- **Dataset**: MNIST handwritten digits
+- **Architecture**: 
+  - Input: Flattened 28x28 images (784 features)
+  - Dense Layer 1: 128 units, ReLU
+  - Dense Layer 2: 10 units, Softmax
+- **Training**: 
+  - Optimizer: Adam
+  - Loss: Sparse Categorical Crossentropy
+  - Epochs: 10
+  - Validation split: 0.1
+  - Scaling applied: pixel values normalized to [0,1]
+- **Overfitting Mitigation**: Dropout layers used
+- **Test Accuracy**: ~98%
+- **Notebook**: [Link to the Jupyter notebook](notebooks\HandwrittenDigitRecognitionNN.ipynb)
+
+
 ## 🤝 Contributing
 
 1. Fork the repository
